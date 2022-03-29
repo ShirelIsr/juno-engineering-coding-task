@@ -125,7 +125,7 @@ export function fetchOrderById(id) {
         id,
         userId: usersIds[Math.floor(Math.random() * usersIds.length - 0.000001)],
         timestamp:
-            Date.now() - Math.round(Math.random() * 60 * 24 * 60 * 60 * 1000),
+           Date.now() - Math.round(Math.random() * 60 * 24 * 60 * 60 * 1000),
         title: `Order ${id}`
     });
 }
